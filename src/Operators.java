@@ -45,5 +45,26 @@ public class Operators {
         System.out.println(a >= b); // Mayor o igual que
         System.out.println(a < b); // Menor que
         System.out.println(a <= b); // Menor o igual que
+
+        // Lógicos (combinan expresiones booleanas)
+
+        System.out.println(true && true); // Y (AND)
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+
+        System.out.println(3 > 2 && 5 == 2);
+
+        System.out.println(true || true); // O (OR)
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+
+        System.out.println(3 > 2 || 5 == 2);
+
+        System.out.println(!true); // NO (NOT)
+        System.out.println(!false);
+
+        System.out.println(!(3 > 2) || 5 == 2);
     }
 }
