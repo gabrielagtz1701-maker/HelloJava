@@ -36,5 +36,14 @@ public class Operators {
         a %= 2; // a = a % 2
         System.out.println(a);
 
+        // Comparación (Relacionales que devuelven verdadero o falso)
+
+        System.out.println(a == b); // Igualdad
+        System.out.println(a == 0);
+        System.out.println(a != b); // Desigualdad
+        System.out.println(a > b); // Mayor que
+        System.out.println(a >= b); // Mayor o igual que
+        System.out.println(a < b); // Menor que
+        System.out.println(a <= b); // Menor o igual que
     }
 }
