@@ -16,6 +16,25 @@ public class Operators {
         System.out.println(a * b);
         System.out.println(a / b);
         System.out.println(a % b); // Modulo, lo que sobra de la división
-        
+
+        // Asignación (asignan valores a las variables)
+
+        a = b;
+        System.out.println(a);
+
+        a = b * 2;
+        System.out.println(a); // Operador =
+
+        a += 1; // a = a + 1
+        System.out.println(a);
+        a -= 1; // a = a - 1
+        System.out.println(a);
+        a *= 2; // a = a * 2
+        System.out.println(a);
+        a /= 2; // a = a / 2
+        System.out.println(a);
+        a %= 2; // a = a % 2
+        System.out.println(a);
+
     }
 }
