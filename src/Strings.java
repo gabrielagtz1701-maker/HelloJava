@@ -9,5 +9,8 @@ public class Strings {
 
         //Concatenación
         System.out.println(name + " " + surname);
+
+        // Longitud del String
+        System.out.println(name.length());
     }
 }
