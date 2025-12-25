@@ -12,5 +12,9 @@ public class Strings {
 
         // Longitud del String
         System.out.println(name.length());
+
+        // Obtener caracter en cierta posición
+        System.out.println(name.charAt(1));
+
     }
 }
