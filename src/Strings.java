@@ -7,5 +7,7 @@ public class Strings {
         String name = "Gabriela";
         var surname = new String("Gutierrez");
 
+        //Concatenación
+        System.out.println(name + " " + surname);
     }
 }
