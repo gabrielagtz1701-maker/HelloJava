@@ -32,5 +32,18 @@ public class Strings {
         System.out.println("Hola, Java.".contains("Gabiriela"));
         System.out.println("Hola, Java.".contains("ava"));
         System.out.println("Hola, Java.".toUpperCase().contains("AVA"));
+
+        // Comparacion
+        System.out.println(name.equals("Gabriela"));
+        System.out.println(name.equals("gabriela"));
+        System.out.println(name.equalsIgnoreCase("GabRiela"));
+
+        // == vs .equals
+        var a = "Gabriela";
+        var b = "Gabriela";
+        var c = new String("Gabriela");
+
+        System.out.println(a == b); // Hace una comparacion del propio objeto
+        System.out.println(a.equals(c)); // Hace una comparacion del valor de la variable
     }
 }
