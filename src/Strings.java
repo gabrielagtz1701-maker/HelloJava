@@ -45,5 +45,13 @@ public class Strings {
 
         System.out.println(a == b); // Hace una comparacion del propio objeto
         System.out.println(a.equals(c)); // Hace una comparacion del valor de la variable
+
+        // Trim
+        System.out.println(" Hola, me llamo Gabriela ");
+        System.out.println(" Hola, me llamo Gabriela ".trim());//Quita espacios al principio y al final
+
+        //Replace
+        System.out.println(" Hola, me llamo Gabriela ".replace(" ", ""));
+        System.out.println(" Hola, me llamo Gabriela ".replace("Gabriela", "Gaby"));
     }
 }
