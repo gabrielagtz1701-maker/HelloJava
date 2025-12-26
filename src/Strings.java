@@ -15,6 +15,12 @@ public class Strings {
 
         // Obtener caracter en cierta posición
         System.out.println(name.charAt(1));
+        System.out.println(name.charAt(name.length() - 1));
+
+        // Obtener una subcadena
+        System.out.println("Gabriela\n01234567");
+        System.out.println(name.substring(2));
+        System.out.println(name.substring(1,3)); // Excluye el ultimo caracter
 
     }
 }
