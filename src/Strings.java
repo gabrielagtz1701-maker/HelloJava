@@ -22,5 +22,10 @@ public class Strings {
         System.out.println(name.substring(2));
         System.out.println(name.substring(1,3)); // Excluye el ultimo caracter
 
+        // Mayusculas y minusculas
+
+        System.out.println(name.toUpperCase());
+        System.out.println(name.toLowerCase());
+        System.out.println(name);
     }
 }
