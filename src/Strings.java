@@ -53,5 +53,11 @@ public class Strings {
         //Replace
         System.out.println(" Hola, me llamo Gabriela ".replace(" ", ""));
         System.out.println(" Hola, me llamo Gabriela ".replace("Gabriela", "Gaby"));
+
+        // Format
+        var age = 27;
+        System.out.println(String.format("Hola, %s. Tengo %d anios.", name, age));
+        
+
     }
 }
