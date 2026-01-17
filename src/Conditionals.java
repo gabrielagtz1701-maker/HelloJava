@@ -15,6 +15,25 @@ public class Conditionals {
             System.out.println("El usuario es menor de edad");
         }
 
+        // Switch y case
+        // No se establece una condicion, solo se inspecciona el valor de una variable y se iguala a cases
+
+        var day = 5;
+
+        switch (day){
+            case 1: // Si se cumplen los valores
+                System.out.println("Lunes");
+                break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miercoles");
+                break;
+            default:
+                System.out.println("No es lunes, martes ni miercoles");
+        } // Sirve para acabar revisando el valor de una variable
+
 
     }
 }
