@@ -57,7 +57,6 @@ public class Strings {
         // Format
         var age = 27;
         System.out.println(String.format("Hola, %s. Tengo %d anios.", name, age));
-        
 
     }
 }
