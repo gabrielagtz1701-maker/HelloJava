@@ -1,3 +1,5 @@
+package c03_strings;
+
 public class StringExercise {
 
     public static void main(String[] args) {

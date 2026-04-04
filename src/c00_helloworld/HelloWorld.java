@@ -1,4 +1,4 @@
-/*
+package c00_helloworld;/*
 Clase 1 - Introducción y Hola Mundo (23/12/25)
 Cometarios en varias líneas
  */
