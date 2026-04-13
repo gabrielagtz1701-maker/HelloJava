@@ -10,7 +10,22 @@ public class Loops {
          // Loops
          System.out.println("Hello World");
 
-         // for
+         // - for controlado por contador
+         for (int index = 0; index < 5; index++) { // Donde empieza el contador, hasta donde va a llegar, como se va a mover
+             System.out.println("Hello Java!");
+         }
+
+         String[] names = {"Gabriela", "Gutierrez", "GABS"};
+
+         for (int index = 0; index < names.length; index++) {
+             System.out.println(names[index]);
+         }
+
+         // -
+
+
+
+
 
      }
 }
