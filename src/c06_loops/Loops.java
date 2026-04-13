@@ -51,9 +51,37 @@ public class Loops {
              System.out.println(email.getKey() + ": " + email.getValue());
          }
 
+         // - While
 
+         int index = 0;
+         while (index < 5) {
+              System.out.println("Hello Java!");
+              index++;
+         }
 
+         index = 0;
+         while (index < names.length) {
+             System.out.println(names[index]);
+             index++;
+         }
 
+         index = 0;
+         boolean find = false;
+         while (!find) {
+             System.out.println(names[index]);
+             if (names[index].equals("Gutierrez")) {
+                 find = true;
+             }
+             index++;
+         }
 
+         // - do - while
+
+         index = 0;
+         do {
+             // Minimo una vez se va a ejecuta
+             System.out.println("Hola, Java!");
+             index++;
+         } while (index < 0);
      }
 }
