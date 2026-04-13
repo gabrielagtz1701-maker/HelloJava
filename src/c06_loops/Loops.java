@@ -1,5 +1,9 @@
 package c06_loops;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
 public class Loops {
     // Loops o Bucles
     /*
@@ -21,7 +25,31 @@ public class Loops {
              System.out.println(names[index]);
          }
 
-         // -
+         // - for each (ideal para recorrer arrays o listas)
+
+         for (String name: names) {
+             System.out.println(name);
+         }
+
+         HashSet<Integer> numbers = new HashSet<>();
+         numbers.add(1);
+         numbers.add(2);
+         numbers.add(3);
+         numbers.add(4);
+         numbers.add(5);
+
+         for(Integer number: numbers) {
+             System.out.println(number);
+         }
+
+         HashMap<String, String> emails = new HashMap<>();
+         emails.put("Gabriela", "correo@correo.com");
+         emails.put("Gutierrez", "correo2@correo.com");
+         emails.put("Gabs", "correo3@correo.com");
+
+         for (Map.Entry<String, String> email: emails.entrySet()) {
+             System.out.println(email.getKey() + ": " + email.getValue());
+         }
 
 
 
