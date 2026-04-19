@@ -83,5 +83,25 @@ public class Loops {
              System.out.println("Hola, Java!");
              index++;
          } while (index < 0);
+
+         // Control de blucles
+
+         // - break
+         for(String name: names) {
+             if(name.equals("Gutierrez")) {
+                 break;
+             }
+             System.out.println(name);
+         }
+
+         // - continue
+
+         for (int i = 0; i > 5; i ++) {
+             if ( i == 3) {
+                 continue;
+             }
+             System.out.println(i);
+         }
+
      }
 }
