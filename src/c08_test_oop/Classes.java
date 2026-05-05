@@ -1,4 +1,6 @@
-package c08_oop;
+package c08_test_oop;
+
+import c08_oop.Person;
 
 public class Classes {
     // Clases
@@ -26,24 +28,15 @@ public class Classes {
     public static void main(String[] args) {
 
         // Llamar a una clase
-        var person = new Person("Gabriela", -28, "001");
+        var person = new Person("Gabriela", 28, "001");
 
         //person.name = "Gabriela";
         //person.age = 28;
 
         person.sayHello();
 
-        person.name = "Gabriela1_1";
-        System.out.println(person.name);
+        //person.name = "Gabriela1_1";
+        //System.out.println(person.name);
 
-        //person.id = "001";
-
-        System.out.println(person.getId());
-
-        person.setAge(28);
-        System.out.println(person.getAge());
-
-        var person2 = new Person("Gabriela2", 18, "002");
-        person2.sayHello();
     }
 }
