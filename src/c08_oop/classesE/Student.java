@@ -1,5 +1,7 @@
 package c08_oop.classesE;
 
+import c08_oop.InheritanceE.Person;
+
 public class Student {
 
     // Atributos
