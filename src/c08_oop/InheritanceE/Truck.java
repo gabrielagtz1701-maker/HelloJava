@@ -6,4 +6,9 @@ public class Truck extends Vehicle {
     public void describe() {
         System. out.println("This is a truck: strong and built for heavy loads.");
     }
+
+    @Override
+    public void start() {
+        System.out.println("Truck starting...");
+    }
 }

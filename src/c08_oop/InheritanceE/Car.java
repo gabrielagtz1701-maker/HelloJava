@@ -10,4 +10,9 @@ public class Car extends Vehicle{
     public void describe() {
         System.out.println("This is a car");
     }
+
+    @Override
+    public void start() {
+        System.out.println("Car starting...");
+    }
 }
