@@ -48,6 +48,17 @@ public class Exceptions {
             System.out.println("Fin del bloque try-catch");
         }
 
+        // throw
+        var throwExample = new ThowExample();
+
+        try {
+            throwExample.checkAge(15);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error revisando la edad: " + e.getMessage());
+        }
+
+
+
         System.out.println("Fin");
     }
 }
