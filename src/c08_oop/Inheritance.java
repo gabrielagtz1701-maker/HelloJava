@@ -5,7 +5,7 @@ import c08_oop.classesE.Dog;
 public class Inheritance {
 
     /*
-    Herencia
+    Herencia (es un)
 
     - Permite que una clase herede atributos y métodos de otra
     - Se debe establecer un sistema de subclases
