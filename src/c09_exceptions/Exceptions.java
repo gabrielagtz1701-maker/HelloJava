@@ -57,6 +57,12 @@ public class Exceptions {
             System.out.println("Error revisando la edad: " + e.getMessage());
         }
 
+        // Excepción personalizada
+        try {
+            throwExample.checkScore(450);
+        } catch (CustomException e) {
+            System.out.println("Error revisando la puntuación: " + e.getMessage());
+        }
 
 
         System.out.println("Fin");
