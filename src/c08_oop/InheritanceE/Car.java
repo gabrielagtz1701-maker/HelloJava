@@ -1,6 +1,8 @@
 package c08_oop.InheritanceE;
 
-public class Car extends Vehicle{
+import c08_oop.AbstractionE.Movable;
+
+public class Car extends Vehicle implements Movable {
 
     public void honk() {
         System.out.println("Beep!! Beep!!");
@@ -14,5 +16,10 @@ public class Car extends Vehicle{
     @Override
     public void start() {
         System.out.println("Car starting...");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("El carro avanza sobre ruedas");
     }
 }

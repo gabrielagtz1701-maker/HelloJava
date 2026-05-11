@@ -1,6 +1,8 @@
 package c08_oop.InheritanceE;
 
-public class Circle extends Shape{
+import c08_oop.AbstractionE.Drawable;
+
+public class Circle extends Shape implements Drawable {
 
     // Atributos
     private double radius;
@@ -15,4 +17,11 @@ public class Circle extends Shape{
     public double calculateArea() {
         return Math.PI * radius * radius;
     }
+
+    @Override
+    public void draw() {
+        System.out.println("Dibujando un Circulo");
+    }
+
 }
+
